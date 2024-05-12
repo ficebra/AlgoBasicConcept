@@ -1,0 +1,23 @@
+ALGORITHM algorithm_name
+VAR
+    sentence: STRING;
+    long: INTEGER;
+    vowels : CHAR := a,e,i,u,y,o;
+BEGIN
+    long := sentence.length
+    FOR i FROM min TO max STEP step  DO
+        set_instructions
+    END_FOR
+END
+
+
+count := 0; x := 3;
+WHILE (count < 3) DO
+    count := count + 1;
+    y := (1+2*count) % 3;
+    SWITCH (y) DO
+        default : 
+        case 0 : x := x-1; BREAK;
+        case 1 : x := x+5;
+    END_SWITCH
+END_WHILE
