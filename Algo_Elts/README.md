@@ -1,0 +1,1 @@
+Premier Check point permettant de mettre fin au cours sur l'introduction aux algorithmes.
